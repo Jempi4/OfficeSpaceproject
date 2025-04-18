@@ -1,0 +1,66 @@
+.signup {
+    border: solid 2px rgb(7, 3, 3);
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 300px;
+    /* padding: auto; */
+    justify-content: center;
+    padding: 10px;
+    /* color: biege; */
+    box-shadow: 4px 8px 8px rgb(0, 0, 0, 4);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 0 20px 0 20px;
+    background-color: beige;
+
+}
+
+label, input{ 
+    display: block;
+    padding-top:6px;
+}
+
+label{
+    font-family:'Gill Sans MT';
+    font-size: 1.1rem;
+}
+
+input{
+    display: block;
+    /* justify-content: center; */
+    width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: solid black;
+    background-color: beige;
+    
+}
+
+#registerhere{ 
+    text-align: center;
+} 
+
+form{
+    margin-left: 200px;
+
+
+}
+
+.signup > h2{
+    text-align: center; 
+    color: green;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#submitbutton{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 10px; 
+
+}
